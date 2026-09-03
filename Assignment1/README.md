@@ -1,2 +1,3 @@
-# WebDesign
-##  This is my root repository for my Intro to Web Design course. You can find my assignment folders inside. Thanks for visiting!
+# Shots of Winter
+##  Images from Missoula's Snowbowl, capturing the beauty of the snow and nature
+### Skiing is one of my favorite hobbies, and while skiing I also like to stop here and there to take some photos, and here they are!
