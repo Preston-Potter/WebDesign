@@ -1,7 +1,5 @@
 body {background-color: rgb(163, 195, 255);}
 body {text-align: center;}
 h1 
-{color: rgb(4, 93, 183);}
-h1 {font-family: cursive;}
-h1 {stroke: rgb(120, 120, 120); stroke-width: 10px;}
+{color: rgb(4, 93, 183);font-family: cursive; stroke: rgb(120, 120, 120); stroke-width: 10px;}
 
