@@ -1,6 +1,6 @@
-body {background-color: rgb(163, 195, 255);}
-body {text-align: center;}
-body {background-image: url('images/BackgroundSnow.png');}
+body {background-color: rgb(163, 195, 255);
+text-align: center;
+background-image: url('images/BackgroundSnow.png');}
 
 h1 
 {color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; -webkit-text-stroke: 0%; font-size: larger;}
