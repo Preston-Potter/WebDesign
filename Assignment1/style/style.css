@@ -1,20 +1,16 @@
 body 
-
 {background-color: rgb(163, 195, 255);
-
 text-align: center;
-
 background-image: url('../Images/BackgroundSnowflakes2.png')
-
 }
 
 body
-
 {background-position: center;}
 
 h1 
-
-{color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; font-size: 100pt;}
+{color: rgb(4, 93, 183);
+font-family: 'Franklin Gothic Medium'; 
+font-size: 100pt;}
 
 h2 
 
