@@ -1,28 +1,19 @@
-body 
-{background-color: rgb(163, 195, 255);
+body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
 }
 
-body
-{background-position: center;}
+body{background-position: center;}
 
-h1 
-{color: rgb(4, 93, 183);
+h1 {color: rgb(4, 93, 183);
 font-family: 'Franklin Gothic Medium'; 
 font-size: 100pt;
 margin-bottom: 0px;}
 
-h2 
-
-{font-style: italic;
+h2{font-style: italic;
 margin-top: 0px;}
 
-h3 
-
-{color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; -webkit-text-stroke: 0%;
+h3{color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; -webkit-text-stroke: 0%;
 }
 
-body >  
-
-{margin-top: 5px; margin-bottom: 5px;}
+body {margin-top: 5px; margin-bottom: 5px;}
