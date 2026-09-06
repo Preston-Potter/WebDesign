@@ -17,3 +17,5 @@ h3{color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; -webkit-text-st
 }
 
 body {margin-top: 5px; margin-bottom: 5px;}
+
+img:not(NewHeader.png) {border-color: darkgray; border-width: 10px;}
