@@ -1,7 +1,8 @@
 body {background-color: rgb(163, 195, 255);
 text-align: center;
-background-image: url('../Images/BackgroundSnow')}
-
+background-image: url('../Images/BackgroundSnow')
+}
+body {background-position: center;}
 h1 
 {color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; font-size: 70pt;}
 h2 {font-style: italic;}
