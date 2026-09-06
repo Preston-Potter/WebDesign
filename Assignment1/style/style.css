@@ -10,4 +10,4 @@ h3
 {color: rgb(4, 93, 183);font-family: 'Franklin Gothic Medium'; -webkit-text-stroke: 0%;
 
 }
-body > *:not(header) {margin-top: 20px; margin-bottom: 20px;}
+body > *:not(header) {margin-top: 5px; margin-bottom: 5px;}
