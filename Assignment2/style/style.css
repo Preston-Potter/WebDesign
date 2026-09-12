@@ -1,9 +1,10 @@
 li {
     list-style-type: none;
-color:navy
-display: inline;blokk;
-font-family: 'Georgia', serif;
+color:navy;
+display: inline-block;
+font-family:Georgia, Serif;
 }
+
 
 body {background-color: rgb(163, 195, 255);
 text-align: center;
