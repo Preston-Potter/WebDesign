@@ -3,6 +3,7 @@ li {
 color:navy;
 display: inline-block;
 font-family:Georgia, Serif;
+list-style-image: url('../Images/SnowflakeIcon.png');
 }
 
 
