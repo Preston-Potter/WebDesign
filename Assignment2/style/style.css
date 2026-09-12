@@ -1,3 +1,10 @@
+li {
+    list-style-type: none;
+color:navy
+display: inline;blokk;
+font-family: 'Georgia', serif;
+}
+
 body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
