@@ -30,7 +30,7 @@ nav a:active {
         text-decoration: none; !important;
 }
 nav {
-    margin: bottom 10px;
+    margin-bottom: 25px;
      display: flex;
      font-family: 'Franklin Gothic Medium';
       justify-content: center;
