@@ -33,3 +33,6 @@ body {margin-top: 5px; margin-bottom: 5px;}
 img:not(.header) {border-color: darkgray; border-width: 10px; border-style: solid;}
 
 p {max-width: 900px; margin: 0 auto; padding:20px 60px;}
+
+nav {background-color: rgb(163, 195, 255); padding: 10px; margin-bottom: 20px;
+display: flex; justify-content: center; align-items: center;}
