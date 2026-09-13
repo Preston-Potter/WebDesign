@@ -8,8 +8,8 @@ list-style-image: url('../Images/SnowflakeIcon.png');
 
 nav ul {list-style-type: none; margin: 0; padding: 0; display: flex; gap: 30px;}
 
-nav a {border: 2px solid navy; border-radius: 5px; text-decoration: none; color: navy; font-family: Georgia, Serif; font-size: 20px; padding: 10px 20px; display: inline-block;}
-nav { display: flex; justify-content: center; align-items: center; background-color: rgb(163, 195, 255); padding: 10px; margin-bottom: 0px;}
+nav a {border: 2px solid navy; border-radius: 5px; text-decoration: none; color: navy; font-family: Georgia, Serif; font-size: 20px; display: inline-block;}
+nav { display: flex; justify-content: center; align-items: center; background-color: rgb(163, 195, 255);  margin-bottom: 0px;}
 body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
