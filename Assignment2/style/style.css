@@ -1,6 +1,6 @@
 nav li {
     list-style-type: none;
-color:navy;
+color:rgb(0, 0, 128);
 display: inline-block;
 font-family: 'Franklin Gothic Medium'; 
 list-style-image: url('../Images/SnowflakeIcon.png');
@@ -76,7 +76,7 @@ body {
 }
 
 img:not(.header) {
-    border-color: darkgray; 
+    border-color: rgb(169, 166, 166); 
     border-width: 10px; 
     border-style: solid;}
 
