@@ -2,7 +2,7 @@ nav li {
     list-style-type: none;
 color:navy;
 display: inline-block;
-font-family:Georgia, Serif;
+font-family: 'Franklin Gothic Medium'; 
 list-style-image: url('../Images/SnowflakeIcon.png');
 }
 
@@ -73,10 +73,11 @@ p{
 }
 
 footer {
-    background-color: rgb(163, 195, 255);
+    color: rgb(10, 89, 169);
      padding: 10px; 
      text-align: center; 
-     font-family: Georgia, Serif; 
      font-size: 14px;
+     font-family: 'Franklin Gothic Medium'; 
+
 }
 
