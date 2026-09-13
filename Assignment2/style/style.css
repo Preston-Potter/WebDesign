@@ -25,9 +25,9 @@ nav a,
 nav a:visited,
 nav a:hover,
 nav a:active {
-        color: rgb(4, 93, 183);
+        color: rgb(4, 93, 183); !immportant;
     
-        text-decoration: none;
+        text-decoration: none; !important;
 }
 nav {
     margin: bottom 10px;
