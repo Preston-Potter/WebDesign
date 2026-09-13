@@ -21,12 +21,10 @@ nav a {
       transition: background-color 0.3s ease;
 }
 
-nav a
+nav a,
 nav a:visited,
-nav a:hover {
-    background-color: rgb(10, 89, 169);
-     color: white;
-     nav a:active {
+nav a:hover,
+nav a:active {
         color: rgb(4, 93, 183);
 }
 nav {
