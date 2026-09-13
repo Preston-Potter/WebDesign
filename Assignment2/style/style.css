@@ -25,9 +25,9 @@ nav a,
 nav a:visited,
 nav a:hover,
 nav a:active {
-        color: rgb(4, 93, 183); !immportant;
+    color: rgb(4, 93, 183) !important;
     
-        text-decoration: none; !important;
+        text-decoration: none !important;
 }
 nav {
     margin-bottom: 25px;
@@ -36,7 +36,6 @@ nav {
       justify-content: center;
        align-items: center; 
        background-color: rgb(163, 195, 255); 
-        margin-bottom: 0px;
     }
 body {background-color: rgb(163, 195, 255);
 text-align: center;
