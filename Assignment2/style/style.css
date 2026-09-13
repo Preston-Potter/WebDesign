@@ -44,7 +44,7 @@ background-image: url('../Images/BackgroundSnowflakes2.png');
 }
 header {margin-top: 10px; 
     margin-bottom: 0px; 
-    padding: 17px;}
+    padding: 12px;}
 
 body{
     background-position: center;
@@ -55,7 +55,7 @@ font-family: 'Franklin Gothic Medium';
 font-size: 75px !important;
 margin-bottom: 0px;
 margin-top: 0px;
-padding-top: 17px;
+padding-top: 12px;
 line-height: 1;
 }
 
