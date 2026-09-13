@@ -1,4 +1,4 @@
-li {
+nav li {
     list-style-type: none;
 color:navy;
 display: inline-block;
@@ -7,7 +7,10 @@ list-style-image: url('../Images/SnowflakeIcon.png');
 display: inline-block;
 }
 
+nav ul {list-style-type: none; display: inline-block; margin: 0; padding: 0; justify-content: center; align-items: center;  }
 
+nav a {text-decoration: none; color: navy; font-family: Georgia, Serif; font-size: 20px; padding: 10px 20px; display: inline-block;}
+nav { display: flex; justify-content: center; align-items: center; background-color: rgb(163, 195, 255); padding: 10px; margin-bottom: 20px;}
 body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
