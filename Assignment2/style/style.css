@@ -31,7 +31,7 @@ nav a:active {
 }
 nav {
     margin-top: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
      display: flex;
      font-family: 'Franklin Gothic Medium';
       justify-content: center;
@@ -42,9 +42,9 @@ body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
 }
-header {margin-top: 10px; 
+header {margin-top: 0px; 
     margin-bottom: 0px; 
-    padding: 12px;}
+    padding: 7px;}
 
 body{
     background-position: center;
