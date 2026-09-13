@@ -8,7 +8,7 @@ list-style-image: url('../Images/SnowflakeIcon.png');
 
 nav ul {list-style-type: none; margin: 0; padding: 0; display: flex; gap: 30px;}
 
-nav a {fill:aliceblue;text-decoration: none; color: navy; font-family: Georgia, Serif; font-size: 20px; display: inline-block; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s ease;}
+nav a {background-color: aliceblue; text-decoration: none; color: navy; font-family: Georgia, Serif; font-size: 20px; display: inline-block; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s ease;}
 nav { display: flex; justify-content: center; align-items: center; background-color: rgb(163, 195, 255);  margin-bottom: 0px;}
 body {background-color: rgb(163, 195, 255);
 text-align: center;
