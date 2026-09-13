@@ -20,6 +20,15 @@ nav a {
       padding: 10px 20px; border-radius: 5px; 
       transition: background-color 0.3s ease;
 }
+
+nav a
+nav a:visited,
+nav a:hover {
+    background-color: rgb(10, 89, 169);
+     color: white;
+     nav a:active {
+        color: rgb(4, 93, 183);
+}
 nav {
     margin: bottom 10px;
      display: flex;
