@@ -41,9 +41,9 @@ body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
 }
-header {margin-top: 0px; 
+header {margin-top: 10px; 
     margin-bottom: 0px; 
-    padding: 25px;}
+    padding: 17px;}
 
 body{
     background-position: center;
