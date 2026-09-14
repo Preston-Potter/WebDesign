@@ -61,6 +61,7 @@ line-height: 1;
 
 h2{
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif ;
 margin-top: 0px;
 }
 
@@ -73,6 +74,7 @@ h3{
 body {
     margin-top: 25px;
      margin-bottom: 5px;
+     font-family: 'Times New Roman', Times, serif
 }
 
 img:not(.header) {
