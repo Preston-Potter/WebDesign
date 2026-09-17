@@ -47,8 +47,8 @@ nav {
     text-shadow: 2px 2px 4px #f2eeee; }
     
     div.photocard {
-        background-color: rgb(163, 195, 255);
-        border: 5px solid rgb(4, 93, 183);
+        background-color: rgb(4, 93, 183);;
+        border: 5px solid rgb(255, 255, 255);
         border-radius: 100px;
         padding: 50px;
 
