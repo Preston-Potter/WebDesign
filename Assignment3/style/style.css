@@ -58,7 +58,7 @@ margin: 20px auto;
         display: inline-block;
         
     }
-    photocard img {
+    div.photocard img {
         border:none !important;
     }
 
