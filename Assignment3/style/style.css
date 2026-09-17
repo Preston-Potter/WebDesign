@@ -56,7 +56,12 @@ margin: 20px auto;
         max-width: 500px;
         text-align: center;
         display: inline-block;
-        
+    }
+    .photocard h2 {
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium';
+        font-size: 30px;
+        margin-bottom: 10px;
     }
     div.photocard img {
         border:none !important;
