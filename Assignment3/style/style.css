@@ -39,7 +39,7 @@ nav {
        background-color: rgb(163, 195, 255); 
     }
 
-    .hero {text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+    .hero {text-shadow: 2px 2px 4px #f2eeee;}
 
 body {background-color: rgb(163, 195, 255);
 text-align: center;
