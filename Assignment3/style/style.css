@@ -49,13 +49,17 @@ nav {
     div.photocard {
         background-color: rgb(4, 93, 183);;
         border: 5px solid rgb(255, 255, 255);
-        border-radius: 100px;
-        padding: 50px;
-
-        max-width: 400px;
+        border-radius: 30px;
+        padding: 30px;
+color: rgb(255, 255, 255); 
+margin: 20px auto;
+        max-width: 500px;
         text-align: center;
         display: inline-block;
-        text-align: center;
+        
+    }
+    photocard img {
+        border:none !important;
     }
 
 body {background-color: rgb(163, 195, 255);
