@@ -40,7 +40,7 @@ nav {
     }
 
     .hero { h1 {text-shadow: 2px 2px 4px #f2eeee;}
-img.header {border: 2px solid hsl(0, 8%, 97%);} }
+img.header {animation: ease-in;} }
 
 body {background-color: rgb(163, 195, 255);
 text-align: center;
