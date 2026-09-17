@@ -50,6 +50,7 @@ nav {
         background-color: rgb(4, 93, 183);;
         border: 5px solid rgb(255, 255, 255);
         border-radius: 30px;
+        margin-top: 0px;
         padding: 30px;
 color: rgb(255, 255, 255); 
 margin: 20px auto;
@@ -62,6 +63,7 @@ margin: 20px auto;
         font-family: 'Franklin Gothic Medium';
         font-size: 30px;
         margin-bottom: 10px;
+        text-shadow:none
     }
     div.photocard img {
         border:none !important;
