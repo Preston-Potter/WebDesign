@@ -39,8 +39,8 @@ nav {
        background-color: rgb(163, 195, 255); 
     }
 
-    .hero { h1 {text-shadow: 2px 2px 4px #f2eeee;}
-img.header {animation: ease-in;} }
+    .hero h1 {text-shadow: 2px 2px 4px #f2eeee; } img.header {color: rgb(4, 93, 183);}
+    
 
 body {background-color: rgb(163, 195, 255);
 text-align: center;
