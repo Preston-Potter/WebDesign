@@ -39,13 +39,8 @@ nav {
        background-color: rgb(163, 195, 255); 
     }
 
-    .hero {display: block;
-  max-width: 100%;
-  margin: 0 auto;
-  width: 100%;
-  height: 555px;
-  object-fit: cover;}
-  
+    .hero {text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+
 body {background-color: rgb(163, 195, 255);
 text-align: center;
 background-image: url('../Images/BackgroundSnowflakes2.png');
