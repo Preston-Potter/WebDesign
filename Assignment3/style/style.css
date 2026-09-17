@@ -42,6 +42,7 @@ nav {
     .hero h1 
     {text-shadow: 2px 2px 4px #f2eeee; } 
     h2 {margin-top: 7px;
+        padding-top: 20px;
     color: rgb(4, 93, 183);
     text-shadow: 2px 2px 4px #f2eeee; }
     
