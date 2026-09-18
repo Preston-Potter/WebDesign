@@ -68,11 +68,14 @@ margin: 20px auto;
     }
    .card img {
         border:none !important;
+        max-width: 100%;
     }
 
     .card-group {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px auto;
         gap: 20px;
     }
 
