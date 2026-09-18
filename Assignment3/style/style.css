@@ -46,7 +46,7 @@ nav {
     color: rgb(4, 93, 183);
     text-shadow: 2px 2px 4px #f2eeee; }
     
-    div.photocard {
+    .card {
         background-color: rgb(4, 93, 183);;
         border: 5px solid rgb(255, 255, 255);
         border-radius: 30px;
@@ -58,7 +58,7 @@ margin: 20px auto;
         text-align: center;
         display: inline-block;
     }
-    .photocard h2 {
+    .card h2 {
         color: rgb(255, 255, 255);
         font-family: 'Franklin Gothic Medium';
         font-size: 30px;
@@ -66,7 +66,7 @@ margin: 20px auto;
         margin-top: 0px;
         text-shadow:none;
     }
-    div.photocard img {
+   .card img {
         border:none !important;
     }
 
