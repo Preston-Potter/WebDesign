@@ -220,3 +220,6 @@ th{
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
+tbody td:first-child {
+    font-style: italic;
+}
