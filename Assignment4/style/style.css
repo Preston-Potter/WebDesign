@@ -138,3 +138,13 @@ footer {
 
 }
 
+.form-v2 {
+    background-color: rgb(4, 93, 183);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    text-align: center;
+}
