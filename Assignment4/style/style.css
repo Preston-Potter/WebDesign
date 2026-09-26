@@ -234,7 +234,7 @@ tbody td:first-child {
 }
 
 .gallery img {
-    width: calc(33.333% - 10px); 
+    width: calc(33.333% - 6px); 
     height: auto;
     object-fit: cover;
     aspect-ratio: 1 / 1;
