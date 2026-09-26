@@ -162,16 +162,18 @@ footer {
 }
 
 .form-v2 label {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 800px;
-    margin: 0 auto;
-    gap: 10px;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}   
+
+.form-v2 input[type="text"]
+.form-v2 input[type="email"]
 .form-v2 input[type="checkbox"]
 .form-v2 input[type="radio"]
 .form-v2 input[select] {
-    flex: 0 0 calc(33.333% - 6.67px);
+    width: 100%;
+    padding: 10px;
     margin-top: 5px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -224,28 +226,16 @@ tbody td:first-child {
 .gallery {
     display: flex;  
     flex-wrap: wrap;
-    max-width: 600px;
     justify-content: center;
+    max-width:800px;
     margin: 0 auto;
-    gap: 10px;
-    width: 100%;
     row-gap: 10px;
     column-gap: 10px;
-    margin: 0 auto;
 }
 
 .gallery img {
-    flex: 0 0 calc(33.333% - 6.67px);
+    width: calc(33.333% - 10px); 
+    height: auto;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    box-sizing: border-box;
-}
-
-.form-v2 label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-
 }
