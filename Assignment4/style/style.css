@@ -171,3 +171,28 @@ footer {
 .form-v2 input[type="email"]
 .form-v2 input[type="checkbox"]
 .form-v2 input[type="radio"]
+.form-v2 input[select] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+.form-v2 button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 93, 183);
+    cursor: pointer;
+}
+.form-v2 button:hover {
+    background-color: rgb(4, 93, 183);
+    color: rgb(255, 255, 255);
+}
