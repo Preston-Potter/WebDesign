@@ -162,18 +162,16 @@ footer {
 }
 
 .form-v2 label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-}   
-
-.form-v2 input[type="text"]
-.form-v2 input[type="email"]
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 10px;
 .form-v2 input[type="checkbox"]
 .form-v2 input[type="radio"]
 .form-v2 input[select] {
-    width: 100%;
-    padding: 10px;
+    flex: 0 0 calc(33.333% - 6.67px);
     margin-top: 5px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -226,6 +224,7 @@ tbody td:first-child {
 .gallery {
     display: flex;  
     flex-wrap: wrap;
+    max-width: 800px;
     justify-content: center;
     margin: 0 auto;
     row-gap: 10px;
