@@ -240,4 +240,12 @@ tbody td:first-child {
     aspect-ratio: 1 / 1;
     box-sizing: border-box;
 }
+
+.form-v2 label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
 }
