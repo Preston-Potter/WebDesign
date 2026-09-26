@@ -1,0 +1,140 @@
+nav li {
+    list-style-type: none;
+color:rgb(0, 0, 128);
+display: inline-block;
+font-family: 'Franklin Gothic Medium'; 
+list-style-image: url('../Images/SnowflakeIcon.png');
+}
+
+nav ul {list-style-type: none; margin: 0; padding: 0; display: flex; gap: 30px;}
+
+nav a {
+    background-color: aliceblue;
+     box-sizing: border-box; 
+     font-family: 'Franklin Gothic Medium';
+       
+     font-size: 20px;
+    
+     font-weight: bold;
+      display: inline-block; 
+      padding: 10px 20px; border-radius: 5px; 
+      transition: background-color 0.3s ease;
+}
+
+nav a,
+nav a:visited,
+nav a:hover,
+nav a:active {
+    color: rgb(4, 93, 183) !important;
+    /*Gets rid of purple text and underline on the link*/
+        text-decoration: none !important;
+}
+nav {
+    margin-top: 12px;
+    margin-bottom: 5px;
+     display: flex;
+     font-family: 'Franklin Gothic Medium';
+      justify-content: center;
+       align-items: center; 
+       background-color: rgb(163, 195, 255); 
+    }
+
+    .hero h1 
+    {text-shadow: 2px 2px 4px #f2eeee; } 
+    h2 {
+        padding-top: 1px;
+    color: rgb(4, 93, 183);
+    text-shadow: 2px 2px 4px #f2eeee; }
+    
+    .card {
+        background-color: rgb(4, 93, 183);;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        margin: 0 auto;
+        padding: 30px;
+color: rgb(255, 255, 255); 
+margin: 20px auto;
+        max-width: 200px;
+        text-align: center;
+        display: inline-block;
+    }
+    .card h2 {
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium';
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        text-shadow:none;
+    }
+   .card img {
+        border:none !important;
+        max-width: 100%;
+    }
+
+    .card-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px auto;
+        gap: 20px;
+    }
+
+body {background-color: rgb(163, 195, 255);
+text-align: center;
+background-image: url('../Images/BackgroundSnowflakes2.png');
+}
+header {margin-top: 0px; 
+    margin-bottom: 0px; 
+    padding: 7px;}
+
+body{
+    background-position: center;
+}
+
+h1 {color: rgb(10, 89, 169);
+font-family: 'Franklin Gothic Medium'; 
+font-size: 75px !important;
+margin-bottom: 0px;
+margin-top: 0px;
+padding-top: 12px;
+line-height: 1;
+}
+
+h2{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h3{
+    color: rgb(4, 93, 183);
+    font-family: 'Franklin Gothic Medium';
+     -webkit-text-stroke: 0%;
+}
+
+body {
+    margin-top: 25px;
+     margin-bottom: 5px;
+     font-family: 'Times New Roman', Times, serif
+}
+
+img:not(.header) {
+    border-color: rgb(169, 166, 166); 
+    border-width: 10px; 
+    border-style: solid;}
+
+p{
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding:20px 60px;
+    font-size: 25pt;
+}
+
+footer {
+    color: rgb(10, 89, 169);
+     padding: 10px; 
+     text-align: center; 
+     font-size: 14px;
+     font-family: 'Franklin Gothic Medium'; 
+
+}
+
