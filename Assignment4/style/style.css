@@ -202,10 +202,11 @@ table {
     left: 10px;
     margin: 0 auto;
     margin-bottom: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(4, 93, 183);
     border: 1px solid #ccc;
     border-radius: 10px;
     width: 90%;
+    border-spacing: 10px;
 }
 
 th,td {
