@@ -224,12 +224,13 @@ tbody td:first-child {
     font-style: italic;
 }
 .gallery {
-    display: flex;  
+    display: grid;  
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
     row-gap: 10px;
     column-gap: 10px;
+    margin: 0 auto;
 }
 
 .gallery img {
