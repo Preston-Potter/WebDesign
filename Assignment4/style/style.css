@@ -44,8 +44,8 @@ nav {
         width: 20px;
         height: 20px;
         border: none;
-        vertical-align: middle;
-        margin-left: 5px;
+        object-fit: contain;
+        border: none;
     }
 
     .hero h1 
