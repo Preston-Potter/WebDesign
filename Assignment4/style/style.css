@@ -263,3 +263,11 @@ tbody td:first-child {
     box-sizing: border-box;
     position: relative;
 }
+
+table img.difficulty-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    border: none;   
+    vertical-align: middle;
+}
