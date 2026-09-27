@@ -239,4 +239,5 @@ tbody td:first-child {
     object-fit: cover;
     aspect-ratio: 1 / 1;
     box-sizing: border-box;
+    position: relative;
 }
