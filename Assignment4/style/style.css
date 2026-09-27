@@ -39,6 +39,15 @@ nav {
        background-color: rgb(163, 195, 255); 
     }
 
+
+    .nav a img.nav-icon {
+        width: 20px;
+        height: 20px;
+        border: none;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
     .hero h1 
     {text-shadow: 2px 2px 4px #f2eeee; } 
     h2 {
