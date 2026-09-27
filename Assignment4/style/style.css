@@ -103,7 +103,7 @@ body{
 }
 
 h1 {color: rgb(10, 89, 169);
-font-family: 'Franklin Gothic Medium'; 
+font-family: 'Abril Fatface', serif; 
 font-size: 75px !important;
 margin-bottom: 0px;
 margin-top: 0px;
@@ -277,5 +277,12 @@ table img.difficulty-icon {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 375;
+  font-style: normal;
+}
+
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
   font-style: normal;
 }
