@@ -204,7 +204,8 @@ footer {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5px
 }
 .form-v2 button:hover {
     background-color: rgb(4, 93, 183);
