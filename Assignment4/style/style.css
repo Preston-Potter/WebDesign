@@ -273,7 +273,7 @@ table img.difficulty-icon {
 }
 
 
-.playfair-display-<uniquifier> {
+.playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 375;
