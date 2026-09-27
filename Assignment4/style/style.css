@@ -113,7 +113,7 @@ line-height: 1;
 
 h2{
 
-    font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive;
 }
 
 h3{
@@ -283,6 +283,12 @@ table img.difficulty-icon {
 
 .abril-fatface-regular {
   font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
 }
