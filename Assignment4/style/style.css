@@ -112,8 +112,8 @@ line-height: 1;
 }
 
 h2{
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif ;
+
+    font-family: 'Playfair Display', serif;
 }
 
 h3{
@@ -270,4 +270,12 @@ table img.difficulty-icon {
     object-fit: contain;
     border: none;   
     vertical-align: middle;
+}
+
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 375;
+  font-style: normal;
 }
