@@ -202,6 +202,9 @@ footer {
     background-color: rgb(255, 255, 255);
     color: rgb(4, 93, 183);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .form-v2 button:hover {
     background-color: rgb(4, 93, 183);
@@ -211,8 +214,8 @@ footer {
 .form-v2 .submit-icon {
     width: 20px;
     height: 20px;
-    vertical-align: middle;
-    margin-left: 5px;
+    border: none;
+    object-fit: contain;
 }
 
 table {
