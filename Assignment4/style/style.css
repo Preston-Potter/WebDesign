@@ -223,7 +223,7 @@ th{
 tbody td:first-child {
     font-style: italic;
 }
-.gallery {
+#gallery {
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
@@ -233,7 +233,7 @@ tbody td:first-child {
     column-gap: 10px;
 }
 
-.gallery img {
+#gallery img {
     width: calc(33.333% - 6.67px); 
     height: auto;
     object-fit: cover;
