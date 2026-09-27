@@ -208,6 +208,13 @@ footer {
     color: rgb(255, 255, 255);
 }
 
+.form-v2 .submit-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
 table {
     position: relative;
     left: 10px;
