@@ -302,7 +302,6 @@ tbody td:first-child {
     cursor: pointer;
     transition: color 0.3s ease;
     font-size: 30px;
-    transition: font-size 0.3s ease;
 }
 
 .playfair-display {
