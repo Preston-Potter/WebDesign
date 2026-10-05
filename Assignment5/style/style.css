@@ -246,13 +246,11 @@ tbody td:first-child {
     font-style: italic;
 }
 #gallery {
-    display: flex;  
-    flex-wrap: wrap;
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     justify-content: center;
-    max-width:800px;
-    margin: 0 auto;
-    row-gap: 10px;
-    column-gap: 10px;
+    max-width: 700px;
 }
 
 #gallery img {
@@ -264,22 +262,14 @@ tbody td:first-child {
     position: relative;
 }
 
-table img.difficulty-icon {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-    border: none;   
-    vertical-align: middle;
+.photo-card {
+    display: block;
+    width: 225px;
+    height: auto;
+    object-fit: cover;
 }
 
-.photo-container {
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-
-}
-
-.photo-container img {
+.photo-card img {
     display: block;
     width: 225px;
     height: auto;
@@ -289,7 +279,7 @@ table img.difficulty-icon {
 .rating {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: 5px;
 }
 
@@ -297,9 +287,7 @@ table img.difficulty-icon {
     display: none;
 }
 
-.rating label {
-    cursor: pointer;
-}
+
 .rating label:hover {
     color: rgb(172, 20, 20);
     cursor: pointer;
@@ -308,9 +296,8 @@ table img.difficulty-icon {
     transition: font-size 0.3s ease;
 }
 
-.rating input:checked label
-.rating label:hover,
-.rating input:checked + label {
+.rating input:checked + label
+.rating label:hover {
     color: rgb(2, 164, 228);
     cursor: pointer;
     transition: color 0.3s ease;
