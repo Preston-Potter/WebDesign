@@ -272,8 +272,51 @@ table img.difficulty-icon {
     vertical-align: middle;
 }
 
-.gallery-item 
+.photo-container {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
 
+}
+
+.photo-container img {
+    display: block;
+    width: 225px;
+    height: auto;
+    object-fit: cover;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+}
+.rating label:hover {
+    color: rgb(172, 20, 20);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-size: 30px;
+    transition: font-size 0.3s ease;
+}
+
+.rating input:checked label
+.rating label:hover,
+.rating input:checked + label {
+    color: rgb(2, 164, 228);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-size: 30px;
+    transition: font-size 0.3s ease;
+}
 
 .playfair-display {
   font-family: "Playfair Display", serif;
