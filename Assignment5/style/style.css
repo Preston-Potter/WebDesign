@@ -247,7 +247,7 @@ tbody td:first-child {
 }
 #gallery {
     display: grid;  
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(175px, 1fr));
     gap: 10px;
     justify-content: center;
     max-width: 700px;
@@ -263,10 +263,13 @@ tbody td:first-child {
 }
 
 .photo-card {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 225px;
     height: auto;
     object-fit: cover;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo-card img {
@@ -281,6 +284,7 @@ tbody td:first-child {
     justify-content: center;
     flex-direction: row-reverse;
     gap: 5px;
+    margin-top: 5px;
 }
 
 .rating input {
