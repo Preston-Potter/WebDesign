@@ -332,3 +332,9 @@ tbody td:first-child {
   display: inline-block;
   vertical-align: middle;
 }
+
+@media (max-width: 700px) {
+    #gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
