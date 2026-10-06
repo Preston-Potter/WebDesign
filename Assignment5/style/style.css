@@ -251,31 +251,31 @@ tbody td:first-child {
     gap: 10px;
     justify-content: center;
     max-width: 700px;
+    margin: 0 auto;
 }
 
 #gallery img {
-    width: calc(33.333% - 6.67px); 
+    width: 300px;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     aspect-ratio: 1 / 1;
-    box-sizing: border-box;
-    position: relative;
+    display: block;
+
 }
 
 .photo-card {
     display: flex;
     flex-direction: column;
-    width: 225px;
-    height: auto;
-    object-fit: cover;
     align-items: center;
-    justify-content: center;
+    width: 300px;
 }
 
 .photo-card img {
     display: block;
     width: 300px;
     height: auto;
+    border: none;
+    object-fit: contain;
 
 }
 
