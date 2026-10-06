@@ -329,4 +329,6 @@ tbody td:first-child {
   width: 20px;
   height: 20px;
   object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
 }
