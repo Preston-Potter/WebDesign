@@ -1,3 +1,3 @@
 Component Plan
 
-For my component that I have started and got a decent amount of progress on, I wanted to add a rating system to my gallery page, as I thought it would be a fun feature for people to be able to rate the photos 1-5 to see which ones are liked more than others, and I used flexbox  to place them into the gallery. I am also experimenting with the size/color transition when you hover or select on the stars, and am trying to figure out currently how to make it select all of the stars to the left of the one that you select. 
+For my component, I am creating a rating system for every gallery photo. I am adding it so that the users have a way to rate all of the photos and give feedback, further than just stating their favorite on my form on the home page. It will feature 5 selectable stars, and I am working on the color/size transitions when the cursor hovers or selects the stars. I am using flexbox to build it.
