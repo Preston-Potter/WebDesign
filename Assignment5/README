@@ -1,12 +1,3 @@
-I used icons for all of my navigation bar items, such as home, about me, info and gallery, as well as a check for the submit button and icons for the run difficulties on my table. I kept them to the same blue/white/grey/black color scheme of the site so that they would fit in. I also kept them all simple and 2D.
+Component Plan
 
-I used abril fatface and great vibes for the fonts on my site, I didn't have a specific reason, I just thought that they worked well, I currently probably have too many fonts, so I will have to bring that number down in the future.
-
-My table organizes my favorite runs at Snowbowl, their difficulty, and what chairlift you have to take to get to them. It is appropriate for the site as it is on the page with info about the mountain. To try to help organize the form, I made the titles bold to differentiate them, tried to add some space between the rows, and added the icons of the run difficulty. I also italicised the names of the runs. 
-
-The goal of my form is for the user to choose their favorite photo and part of winter (later updated to why this is their favorite photo) and provide a bit of info about themselves, as well as having an option to sign up for a hypothetical photo newsletter type thing. It would help me learn what people thought of my photos, and why they liked the one that they did. 
- 
-
-I made my gallery uniform, just in a 3x3 grid as I like the symmetry of it and the ease of view. 
-
-I think I am doing fairly well learning design principles, as I have studied some similar type stuff in the past. I need to work a bit on typography, as I don’t have as much experience in that aspect of design. I am doing better figuring out components and how to style them, and understanding a bit more how to display elements.
+For my component that I have started and got a decent amount of progress on, I wanted to add a rating system to my gallery page, as I thought it would be a fun feature for people to be able to rate the photos 1-5 to see which ones are liked more than others, and I used flexbox  to place them into the gallery. I am also experimenting with the size/color transition when you hover or select on the stars, and am trying to figure out currently how to make it select all of the stars to the left of the one that you select. 
