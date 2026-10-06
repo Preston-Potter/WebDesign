@@ -272,9 +272,8 @@ tbody td:first-child {
 
 .photo-card img {
     display: block;
-    width: 250px;
-    height: 250px;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border: none;
     object-fit: cover;
 
