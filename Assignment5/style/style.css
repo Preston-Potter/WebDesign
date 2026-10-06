@@ -250,34 +250,30 @@ tbody td:first-child {
     grid-template-columns: repeat(3, minmax(175px, 1fr));
     gap: 10px;
     justify-content: center;
-    max-width: 200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
-#gallery img {
-    width: 300px;
-    height: auto;
-    object-fit: contain;
-    aspect-ratio: 1 / 1;
+#gallery img ,
+.photo-card img {
     display: block;
+    width: 265px;
+    height: 265px;
+    border: none;
+    object-fit: cover;
 
 }
+
+
+
 
 .photo-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 265px;
 }
 
-.photo-card img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border: none;
-    object-fit: cover;
-
-}
 
 .rating {
     display: flex;
