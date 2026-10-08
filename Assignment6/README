@@ -1,0 +1,7 @@
+Component Plan
+
+Webpage the component will be applied to: Gallery
+Type of component: Rating System
+Why it's needed: The users will have a way to rate all of the photos and give feedback, further than just stating their favorite on my form on the home page
+Features: It will feature 5 selectable stars, and I am working on the color/size transitions when the cursor hovers or selects the stars. 
+What you'll use to build it: Flexbox
