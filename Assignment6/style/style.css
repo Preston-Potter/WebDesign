@@ -296,7 +296,9 @@ tbody td:first-child {
 }
 
 .rating input:checked + label,
-.rating label:hover {
+.rating input:checked + label ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
     color: rgb(2, 164, 228);
     cursor: pointer;
     transition: color 0.3s ease;
