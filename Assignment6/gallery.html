@@ -204,11 +204,33 @@
 
 <label>
            
-        <button type="submit" class="submit-gallery">
+        <button type="submit" class="submit-gallery" onclick="submitRatings()">
             <span>Submit Your Ratings!</span>
         <img src="Images/Icons/SubmitIcon (Small).png" alt="" class="submit-icon">
         </button>
 
+        <div id="favorites" ></div>
+<script>
+    function submitRatings() {
+        var cards = document.getElementsByClassName("photo-card");
+        var results = "<h2>Your Favorites</h2>";
+        var foundFavorite = false;
+
+        for (var i = 0; i < cards.length; i++) {
+            var fiveStarRating = cards[i].querySelector('input[value="5"]:checked');
+            if (fiveStarRating) {
+                var photo = cards[i].getElementsByTagName('img')[0].src;
+                results += "<img src='" + photo + "'>";
+                foundFavorite = true;
+            }
+
+            }
+        if (!foundFavorite == false) {
+            results += "<p> Thank you for your ratings!</p>";
+        }
+        document.getElementById("favorites").innerHTML = results;
+    }
+</script>
 
     </body>
 </html>
