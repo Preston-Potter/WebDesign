@@ -244,7 +244,11 @@ margin: 15px auto;
     border: none;
     object-fit: contain;
 }
-
+ #favorites img {
+    width:600px;
+    height: auto;
+    margin: 10px;
+}
 
 table {
     position: relative;
