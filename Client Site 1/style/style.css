@@ -72,5 +72,19 @@ nav {
     @media (max-width: 700px) {
         .home-hero {
             grid-template-columns: 1fr;
+
         }
+
+    .info-hero{
+        grid-template-areas: "text" "image"
+
     }
+    .info-hero .hero-text {
+        grid-area: text;
+        
+    }
+    .info-hero .home-hero__img {
+        grid-area: image;
+    }
+}
+
