@@ -151,3 +151,39 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+
+.body.opportunities-page {
+    background-color: rgb(163, 195, 255);
+    color: black;
+    text-align: center;
+}
+
+.opportunities-page h1,
+.opportunities-page h2 {
+    color: rgb(0, 0, 128);
+    font-family: 'Franklin Gothic Medium';
+}
+
+opportunities-page h1 {
+    margin: 45px 0 12px;
+}
+
+.opportunities-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.opportunities-column u1 {
+    list-style-type: none;
+    font-size: 40px;
+    line-height: 1.5;
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+    .opportunities-columns {
+        grid-template-columns: 1fr;
+    }
+}
