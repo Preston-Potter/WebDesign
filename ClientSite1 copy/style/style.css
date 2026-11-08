@@ -255,7 +255,7 @@ opportunities-page h1 {
 
 }
 
-.opportunitites-card {
+.opportunities-card {
     display:flex;
     flex-direction: column;
     align-items: center;
