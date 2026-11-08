@@ -220,7 +220,12 @@ opportunities-page h1 {
     display: flex;
     justify-content: center;
     gap: 16px;
+    align-items: center;
 
+}
+
+.socials h3 {
+    margin: 0;
 }
 
 .Socials button {
