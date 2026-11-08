@@ -247,13 +247,47 @@ opportunities-page h1 {
 }
 
 .opportunities-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 25px;
+    max-width:700px;
     margin: 20px 0;
 
 }
 
+.opportunitites-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.opportunities-card img {
+    width: 100%;
+    max-width: 280px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.home-hero__img a{
+    padding: 10px 20px;
+    border-radius: 0px;
+    background-color: #6437b7ff;
+    color: #f5f5f5ff;
+    text-decoration: none !important;
+    transition: transform 0.3s ease;
+}
+
+.opportunities-card a:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .opportunities-buttons {
+        grid-template-columns: 1fr;
+    }
+}
 .opportunities-buttons a {
     display: inline-block;
     padding: 10px 20px;
