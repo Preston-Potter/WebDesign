@@ -215,3 +215,28 @@ opportunities-page h1 {
         grid-template-columns: 1fr;
     }
 }
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.socials button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+socials img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
