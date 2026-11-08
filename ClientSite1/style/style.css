@@ -216,14 +216,14 @@ opportunities-page h1 {
     }
 }
 
-.socials {
+.Socials {
     display: flex;
     justify-content: center;
     gap: 16px;
 
 }
 
-.socials button {
+.Socials button {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -235,7 +235,7 @@ opportunities-page h1 {
  cursor: pointer;
 }
 
-socials img {
+.Socials img {
     width: 18px;
     height: 18px;
     object-fit: contain;
