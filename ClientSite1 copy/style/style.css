@@ -331,3 +331,24 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #6437b7ff;
     margin: 20px 0;
 }
+
+.home-subtext {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24 px;
+    align-items: center;
+padding: 28px;
+background-color: rgba(131,96,255,162,.12);
+border-left: 5px solid #8360a2ff;
+border-radius: 10px;
+color:#3c4043ff;
+}
+.home-hero > .section-divider-2 {
+    grid-column: 1 / -1;
+    width: 100px;
+    height: 4px;
+    border: 0;
+    background: #8360a2ff;
+    margin: 8px 0;
+}
