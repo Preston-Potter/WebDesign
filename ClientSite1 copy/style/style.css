@@ -8,7 +8,7 @@ nav li {
     list-style-type: none;
 color:rgb(0, 0, 128);
 display: inline-block;
-font-family: 'Kanit', sans-serif; 
+font-family: 'Eb Garamond', serif; 
 list-style-image: url('../Images/SnowflakeIcon.png');
 }
 
@@ -17,7 +17,7 @@ nav ul {list-style-type: none; margin: 0; padding: 0; display: flex; gap: 30px;}
 nav a {
     background-color: aliceblue;
      box-sizing: border-box; 
-     font-family: 'sans-serif';
+     font-family: 'Eb Garamond', serif;
        
      font-size: 20px;
     
@@ -189,7 +189,7 @@ nav a {
 .opportunities-page h1,
 .opportunities-page h2 {
     color: rgb(0, 0, 128);
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Eb Garamond', serif;
 }
 
 opportunities-page h1 {
@@ -316,5 +316,5 @@ body {
     font-family: 'EB Garamond', serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Kanit', sans-serif;
 }
