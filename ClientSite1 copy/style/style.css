@@ -321,7 +321,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-divide {
     border: none;
-    height: 2px;
+    height: 7px;
+    background-color: #6437b7ff;
+    margin: 20px 0;
+}
+.home-hero > .section-divider-2 {
+    grid-column: 1 / -1;
+    height: 15px;
     background-color: #6437b7ff;
     margin: 20px 0;
 }
