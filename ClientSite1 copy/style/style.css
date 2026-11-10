@@ -233,11 +233,13 @@ nav a {
    flex-direction: column;
     gap: 16px;
     align-items: center;
+    justify-self: center;
 
 }
 
 .socials h3 {
     margin: 0;
+    text-align: center;
 }
 
 .Socials button {
