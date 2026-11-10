@@ -189,10 +189,10 @@ nav a {
 .opportunities-page h1,
 .opportunities-page h2 {
     color: rgb(0, 0, 128);
-    font-family: 'Eb Garamond', serif;
+    font-family: 'Kanit', serif;
 }
 
-opportunities-page h1 {
+.opportunities-page h1 {
    text-align: center;
 }
 
