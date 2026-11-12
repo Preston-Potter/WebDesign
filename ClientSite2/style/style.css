@@ -457,3 +457,24 @@ color:#3c4043ff;
         grid-row: auto;
 }
 }
+
+.home-title-card {
+    padding: 20px 18px;
+
+}
+
+.contact.faq.-form {
+    padding: 14px;
+    gap: 6px;
+
+}
+
+.contact.faq-form p {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.contact.faq-form input,
+.contact.faq-form textarea {
+    padding: 6px;
+}
