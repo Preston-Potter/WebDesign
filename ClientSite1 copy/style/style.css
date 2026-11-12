@@ -313,7 +313,7 @@ cursor: pointer;
     gap: 24px;
     max-width:1100px;
     margin: 20px auto;
-    font-size:large;
+    font-size: 1.15 rem;
 }
 
 .opportunities-card {
