@@ -86,8 +86,6 @@ nav a {
        max-width: 1280px;
        margin: 0 4vw;
        padding: 48px 24px;
-       row-gap: 8px;
-       column-gap: 6vw;
     }
 
     .home-hero__img {
@@ -432,51 +430,4 @@ color:#3c4043ff;
     max-width: 100%;
     height: auto;
     justify-self: end;
-}
-
-.home-hero:not(.info.hero) > .home-hero__img {
-    grid-column: 1;
-    grid-row: 1/3;
-}
-
-
-.home-hero:not(.info-hero) > .hero-text 
-{
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.home-hero:not(.info-hero) > .contact {
-    grid-column: 2;
-    grid-row: 2;
-
-}
-@media (max-width: 700px) {
-    .home-hero:not(.info-hero) > .home-hero__img,
-    .home-hero:not(.info-hero) > .hero-text,
-    .home-hero:not(.info-hero) > .contact {
-        grid-column: 1;
-        grid-row: auto;
-}
-}
-
-.home-title-card {
-    padding: 20px 18px;
-
-}
-
-.contact.faq.-form {
-    padding: 14px;
-    gap: 6px;
-
-}
-
-.contact.faq-form p {
-    margin: 0;
-    line-height: 1.3;
-}
-
-.contact.faq-form input,
-.contact.faq-form textarea {
-    padding: 6px;
 }
