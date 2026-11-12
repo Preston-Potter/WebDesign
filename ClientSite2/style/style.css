@@ -431,3 +431,29 @@ color:#3c4043ff;
     height: auto;
     justify-self: end;
 }
+
+.home-hero:not(.info.hero) > .home-hero__img {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+
+.home-hero:not(.info-hero) > .hero-text 
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.home-hero:not(.info-hero) > .contact {
+    grid-column: 2;
+    grid-row: 2;
+
+}
+@media (max-width: 700px) {
+    .home-hero:not(.info-hero) > .home-hero__img
+    .home-hero:not(.info-hero) > .hero-text,
+    .home-hero:not(.info-hero) > .contact {
+        grid-column: 1;
+        grid-row: auto;
+}
+}
