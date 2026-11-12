@@ -450,7 +450,7 @@ color:#3c4043ff;
 
 }
 @media (max-width: 700px) {
-    .home-hero:not(.info-hero) > .home-hero__img
+    .home-hero:not(.info-hero) > .home-hero__img,
     .home-hero:not(.info-hero) > .hero-text,
     .home-hero:not(.info-hero) > .contact {
         grid-column: 1;
