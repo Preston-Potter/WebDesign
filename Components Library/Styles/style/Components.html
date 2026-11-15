@@ -1,0 +1,121 @@
+<!----META DATA-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width,initial-scale=1.0">
+    <meta name="description"  content="A nonpartisan civic engagement nonprofit made to encourage participation in upcoming elections by helping people understand voting processes and overcome barriers to participation.">
+    <title>Voting Motivated</title>
+<link rel="stylesheet" href="style/style.css">
+<link rel="icon" type="image/x-icon" href="images/Icons/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Kanit:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!--NAV-->
+
+  <nav>
+<ul>
+    <li><a href="index.html"><img src="images/Icons/TreeLogo.png" alt="Home" class="nav-icon">
+        Home</a></li>
+    <li><a href="AboutUs.html"><img src="images/Icons/InfoLogo.png" alt="Info" class="nav-icon">
+        About Us</a></li>        
+    <li><a href="FAQ.html"><img src="images/Icons/QuestionLogo.png" alt="Info" class="nav-icon">
+        FAQ</a></li>
+    <li><a href="Opportunities.html">
+        <img src="images/Icons/LightBulbLogo.png" alt="Opportunities" class="nav-icon">
+        Opportunities
+    </a>
+</li>
+</ul>
+
+<!--FORMS-->
+
+
+        <form class="faq-form">
+            <h2>Submit a Question</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (Optional):</label>
+            <input type="email" id="email" name="email">
+
+            <label for="question">Question:</label>
+            <textarea id="question" name="question" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+        <form class="form-v2">
+    <fieldset>
+        <legend> Choose Your Favorite Photo </legend>
+        <label> Your Name</label>
+        <input type="text" name="your-name">
+        <label> Your Email</label>
+        <input type="email" name="your-email">
+    <label> Favorite Photo </label>
+        <select name="favorite-photo">
+            <option value="clouds">Above the Clouds</option>
+            <option value="trees">In the Trees</option>
+            <option value="sun">Over the Horizon</option>
+            <option value="frosty">Frosty Morning</option>
+        </select>
+        <label> Why was this your Favorite Photo?</label>
+        <input type="text" name="favorite-part-of-winter">
+        <label>
+            <input type="checkbox" name="subscribe" value="yes"> Subscribe to Photo Updates
+        </label>
+        <button type="submit">
+            <span>Submit</span>
+        <img src="Images/Icons/SubmitIcon (Small).png" alt="" class="submit-icon">
+        </button>
+    </fieldset>
+</form>
+
+
+<!---BUTTONS-->
+ <button type="button">
+                        <img src="images/Icons/InstagramLogo.png">
+                        Instagram
+                    </button>
+                    <button type="button">
+                        <img src="images/Icons/TikTokLogo.png">
+                        TikTok
+                    </button>
+
+
+<!--HERO/TITLE-->
+
+<main class="home-hero">
+            <img class="home-hero__img" src="images/HomePhoto.jpg" alt="Election Day Image">
+            <section class="hero-text">
+                <h1>Voting Motivated</h1>
+                <p>Learn more about how you can participate in elections and make your voices heard!  </p>
+               <hr class="section-divider">
+            </section>
+       
+
+            <section class="home-subtext">
+                <p>Voting may seem difficult, but we are here to help you learn all that you need to know to help you become an educated voter! Explore our website for commonly asked quetsions, basic voting information, and recoruces to further improve your knowledge on yow you can get involved!</p>
+               
+
+    <!--CARDS-->
+
+     <div class="faq-layout">
+        <section class="faq-list">
+            <article class="faq-card">
+                <div>
+        <h2>How do I register to vote? </h2>
+        <p><a href="https://www.vote.org">Vote.org</a> has a quick <a href="https://www.vote.org/register-to-vote">register tool</a> that makes it easy to sign up in a couple of minutes! Follow the link above if you have not registered to vote and would like to, as this is the first step to getting involved.</a> </p>
+    </div>
+    <img class="faq-img" src="images/Registration.jpg" 
+    alt="Placeholder">
+    </article>
+
+    <!---FOOTERS-->
+
+    <footer>
+    <p>&copy; <span id="year"></span> Preston Potter</p>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</footer>
