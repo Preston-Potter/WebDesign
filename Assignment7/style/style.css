@@ -297,5 +297,6 @@ opportunities-page h1 {
 .blog-preview img {
   width: 35%;
   height: auto;  
+  max-width: 250px;
 }
  
