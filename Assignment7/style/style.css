@@ -293,3 +293,9 @@ opportunities-page h1 {
   color: hsl(103, 100%, 67%);
   margin-top: 10px;
 }
+
+blog-preview img {
+  width: 75px;
+  height: auto;  
+}
+ 
