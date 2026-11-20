@@ -104,7 +104,11 @@ nav a {
         padding: 40px 28px;
         background-color: rgba(131,96,162,.12);
         border-radius: 12px;
+    }
 
+    .hero-text p {
+        font-size: 1.4rem;
+        line-height: 1.6;
     }
 
     .hero-text h1 {
