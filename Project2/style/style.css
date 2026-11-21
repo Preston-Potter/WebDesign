@@ -122,9 +122,11 @@ nav a {
 
         }
 
-    .info-hero{
-        grid-template-areas: "text" "image"
-
+    .info-hero
+    {
+     margin-left: auto;
+     margin-right: auto;
+      
     }
 
 
