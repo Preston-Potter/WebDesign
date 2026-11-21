@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     min-height: 220px;
     box-sizing: border-box;
-padding: 36px;
+padding: 36px 18px 36px 36px;
 background-color: rgba(131,96,162,.12);
 border-left: 8px solid #8360a2ff;
 border-radius: 10px;
