@@ -121,7 +121,7 @@ nav a {
             grid-template-columns: 1fr;
 
         }
-    }
+        
 
     .info-hero
     {
@@ -138,7 +138,7 @@ nav a {
     .info-hero .home-hero__img {
         grid-area: image;
     }
-
+}
 
 .info-hero .aboutus-logo {
     justify-self: center;
