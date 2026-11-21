@@ -309,7 +309,7 @@ cursor: pointer;
     border-radius: 6px;
 }
 
-.socials h3 {
+.Socials h3 {
     margin: 0;
     text-align: center;
 }
@@ -330,6 +330,10 @@ cursor: pointer;
     width: 18px;
     height: 18px;
     object-fit: contain;
+}
+.Socials form {
+    display: flex;
+    gap: 6px;
 }
 
 .opportunities-buttons {
