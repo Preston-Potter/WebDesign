@@ -299,6 +299,16 @@ cursor: pointer;
 
 }
 
+.Socials input [type="email"] {
+    box-sizing: border-box;
+    width: 220px;
+    max-width:100%;
+    padding:10px;
+    font:inherit;
+    border: 1px solid #8360a2ff;
+    border-radius: 6px;
+}
+
 .socials h3 {
     margin: 0;
     text-align: center;
