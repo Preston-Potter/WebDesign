@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-subtext {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 35px;
     align-items: center;
     min-height: 220px;
@@ -441,7 +441,7 @@ color:#3c4043ff;
 }
 
 .home-subtext p {
-    max-width: 65ch;
+    max-width: none;
     margin: 0;
     font-size: 1.6rem;
     line-height: 1.7;
