@@ -126,6 +126,8 @@ nav a {
         grid-template-areas: "text" "image"
 
     }
+
+
     .info-hero .hero-text {
         grid-area: text;
         
@@ -133,6 +135,10 @@ nav a {
     .info-hero .home-hero__img {
         grid-area: image;
     }
+}
+
+.info-hero .aboutus-logo {
+    justify-self: center;
 }
 
 .faq-page {
