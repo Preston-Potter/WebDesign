@@ -139,7 +139,10 @@ nav a {
     }
 }
 
-
+.info-hero {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .faq-page {
     max-width: 1280px;
