@@ -458,7 +458,7 @@ color:#3c4043ff;
     width: 180px;
     max-width: 100%;
     height: auto;
-    justify-self: start;
+    justify-self: center;
 }
 
 a:focus,button:focus,input:focus {
